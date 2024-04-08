@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
+
+body{
+  background-image: url(https://img.freepik.com/foto-gratis/muelle-lago-hallstatt-austria_181624-44201.jpg);
+  background-size: cover;
+  color: rgb(0, 0, 0);
+  font-family: 'Roboto Condensed';
+  font-size: 18px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.container{
+  text-align: center;
+  max-width: 600px;
+}
+
+.cardweather{
+  background-color: #a49d9d64;
+  width: 250px;
+  border-radius: 9px;
+  align-content: center;
+  padding: 0 30px 10px 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+}
+
+button{
+  color: #000000;
+  border: none;
+  padding: 2px 20px;
+  cursor: pointer;
+  border-radius: 5px;
+  font-size: 15px;
+  font-family: 'Roboto Condensed';
+  
+}
+
+button:hover{
+  background-color: rgb(40 109 124);
+  transform: scale(1.1);
+  transition: .5s;
+}
+
+.nubeYTexto{
+  width: 250px;
+  display: flex;
+  justify-content: center;
+  text-align:left;
+
+}
+
+
+.text{
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+ul{
+  list-style: none;
+}
+
+.nube{
+  width: 20%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
